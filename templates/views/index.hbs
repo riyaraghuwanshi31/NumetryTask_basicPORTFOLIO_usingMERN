@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+
+  {{>navbar}}
+
+  <!-- hero section start -->
+
+  <div class="container-fluid mt-5">
+    <div class="row hgt">
+      <div class="col-md-10 col-12 mx-auto">
+        <div class="row">
+          <div
+            class="col-md-6 col-12 hero-text order-md-0 order-1 d-flex justify-content-center align-items-start flex-column">
+            <h1>HELLO LEARNERS</h1>
+            <h2>Welcome to my website</h2>
+            <p>I am a <span class="bold-style">Full-stack Developer</span> </p>
+           
+          </div>
+
+          <!-- Right side -->
+          <div class="col-md-6 col-12 hero-text order-md-1 order-0">
+            <figure class="avatar">
+              <img src="images/about.svg" alt="avatar">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- hero section ends -->
+
+
+  <!-- about section start -->
+  {{>about}}
+  <!-- about section ends -->
+
+
+  <!-- services section start -->
+  {{>services}}
+  <!-- servicessection ends -->
+
+
+  
+
+
+  <!-- contact start-->
+  {{>contact}}
+  <!-- contact end-->
+
+
+  {{>connect}}
+
+  <script src="../jq/jquery.js" type="text/javascript"></script>
+  <script src="../js/bootstrap.js" type="text/javascript"></script>
+</body>
+
+
+
+
+</html>

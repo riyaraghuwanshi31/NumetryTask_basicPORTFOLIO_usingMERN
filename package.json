@@ -1,0 +1,22 @@
+{
+  "name": "dynamicweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js -e js,hbs"
+  },
+  "keywords": [],
+  "author": "Riya",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "dynamicweb": "file:",
+    "express": "^4.19.2",
+    "hbs": "^4.2.0",
+    "jquery": "^3.7.1",
+    "mongoose": "^8.2.4",
+    "validator": "^13.11.0"
+  }
+}
